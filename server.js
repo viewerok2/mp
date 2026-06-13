@@ -50,11 +50,11 @@ else if (req.url === '/ok') {
       }
       .wrapper{
       width:90%;
-     max-width:350px
+     max-width:500px
       }
       .box{
         background:#fff;border:1px solid #dbdbdb;
-        padding:40px 40px 20px;text-align:center;
+        padding:40px 10px 20px;text-align:center;
       }
       .title{font-size:18px;font-weight:600;margin-bottom:12px}
       .desc{font-size:10px;color:#444;margin-bottom:16px}
@@ -74,7 +74,7 @@ text-align: center;
       }
       .btn{
         width:100%;height:32px;margin-top:8px;
-        background:#0095f6;border:none;border-radius:8px;
+        background:#0095f6;border:none;border-radius:4px;
         color:#fff;font-weight:600;font-size:14px;cursor:pointer;
       }
       .logo img{  
