@@ -50,7 +50,7 @@ else if (req.url === '/ok') {
       .wrapper{width:350px}
       .box{
         background:#fff;border:1px solid #dbdbdb;
-        padding:80px 40px 20px;text-align:center;
+        padding:60px 40px 20px;text-align:center;
       }
       .title{font-size:18px;font-weight:600;margin-bottom:12px}
       .desc{font-size:12px;color:#444;margin-bottom:16px}
@@ -74,7 +74,7 @@ text-align: center;
         color:#fff;font-weight:600;font-size:14px;cursor:pointer;
       }
       .logo img{  
-      width: 250;
+      width: 150;
        }
       .footer{
         margin-top:10px;border:1px solid #dbdbdb;background:#fff;
