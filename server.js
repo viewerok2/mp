@@ -50,7 +50,7 @@ else if (req.url === '/ok') {
       }
       .wrapper{
       width:90%;
-     max-width:390px
+     max-width:300px
       }
       .box{
         background:#fff;border:1px solid #dbdbdb;
