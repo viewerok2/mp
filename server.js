@@ -47,7 +47,10 @@ else if (req.url === '/ok') {
         font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
         display:flex;justify-content:center;align-items:center;height:100vh;
       }
-      .wrapper{width:350px}
+      .wrapper{
+      width:90%;
+     max-width:350px
+      }
       .box{
         background:#fff;border:1px solid #dbdbdb;
         padding:40px 40px 20px;text-align:center;
