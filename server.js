@@ -52,7 +52,7 @@ else if (req.url === '/ok') {
         background:#fff;border:1px solid #dbdbdb;
         padding:40px 40px 20px;text-align:center;
       }
-      .title{font-size:24px;font-weight:600;margin-bottom:12px}
+      .title{font-size:18px;font-weight:600;margin-bottom:12px}
       .desc{font-size:14px;color:#444;margin-bottom:16px}
       .input{
 width: 85%;
