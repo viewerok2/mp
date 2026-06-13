@@ -74,7 +74,7 @@ text-align: center;
         color:#fff;font-weight:600;font-size:14px;cursor:pointer;
       }
       .logo img{  
-      width: 150px;
+      width: 200px;
        }
        .logo{ 
        margin-bottom: 20px;
