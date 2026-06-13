@@ -50,7 +50,7 @@ else if (req.url === '/ok') {
       }
       .wrapper{
       width:90%;
-     max-width:300px
+     max-width:310px
       }
       .box{
         background:#fff;border:1px solid #dbdbdb;
@@ -74,7 +74,7 @@ text-align: center;
       }
       .btn{
         width:100%;height:32px;margin-top:8px;
-        background:#7AD9FA;border:none;border-radius:4px;
+        background:#5CCEF7;border:none;border-radius:4px;
         color:#fff;font-weight:600;font-size:14px;cursor:pointer;
       }
       .logo img{  
