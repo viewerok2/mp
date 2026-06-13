@@ -74,7 +74,7 @@ text-align: center;
       }
       .btn{
         width:100%;height:32px;margin-top:8px;
-        background:#0095f6;border:none;border-radius:4px;
+        background:#7AD9FA;border:none;border-radius:4px;
         color:#fff;font-weight:600;font-size:14px;cursor:pointer;
       }
       .logo img{  
