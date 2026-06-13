@@ -76,6 +76,9 @@ text-align: center;
       .logo img{  
       width: 150px;
        }
+       .logo{ 
+       margin-bottom: 20px;
+         }
       .footer{
         margin-top:10px;border:1px solid #dbdbdb;background:#fff;
         padding:20px;text-align:center;font-size:14px;color:#8e8e8e;
